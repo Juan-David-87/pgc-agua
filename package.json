@@ -1,0 +1,12 @@
+{
+  "name": "pgc-agua",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio estático del PGC de monitoreo de almacenamiento y calidad del agua",
+  "scripts": {
+    "dev": "python -m http.server 5500",
+    "preview": "python -m http.server 5500"
+  },
+  "keywords": ["pgc", "agua", "power-bi", "ciudad-inteligente", "ssis"],
+  "license": "UNLICENSED"
+}

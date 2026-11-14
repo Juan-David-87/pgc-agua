@@ -1,0 +1,3 @@
+# Sin dependencias Python de terceros.
+# pip install -r requirements.txt se puede ejecutar sin instalar paquetes.
+# La vista previa local utiliza el servidor HTTP de la biblioteca estándar de Python.
