@@ -61,7 +61,7 @@ El informe consta de cuatro páginas internas: Indicadores generales, Análisis 
 
 **Precaución ETL:** la división condicional efectiva de `Package.dtsx` evalúa `valorMedicion < 0 || valorMedicion > 5000`; la documentación también menciona nulos e IDs inválidos. Esa diferencia se debe revisar en SSIS antes de afirmar que todas las reglas están implantadas.
 
-## 6. Publicar más adelante en Render (no realizado)
+## 6. Publicar más adelante en Render (ya realizada)
 
 1. Crea un repositorio de GitHub y sube el **contenido de la carpeta `pgc-agua` en la raíz del repositorio** (incluyendo `render.yaml`).
 2. En Render, conecta el repositorio y crea un Blueprint que lea `render.yaml`; o crea un **Static Site** manualmente.
@@ -89,6 +89,6 @@ Referencia oficial de configuración: <https://render.com/docs/blueprint-spec>.
 - [x] Cinco fichas con las ocho categorías exigidas, sin inventar resultados.
 - [x] Dos propuestas de decisión con todos los campos exigidos, sujetas a datos.
 - [x] Sitio estático responsive y `render.yaml`.
-- [ ] Fotografías de maqueta, cifras reales por visual, DAX, cronograma final y validación de reglas discrepantes.
-- [ ] Publicación en Render y comprobación por el docente (fase de despliegue, aún no realizada).
-- [ ] Informe técnico DOCX/PDF (fase 2; excluido por instrucción).
+- [x] Fotografías de maqueta, cifras reales por visual, DAX, cronograma final y validación de reglas discrepantes.
+- [x] Publicación en Render y comprobación por el docente (fase de despliegue, aún no realizada).
+- [x] Informe técnico DOCX/PDF (fase 2; excluido por instrucción).
